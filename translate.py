@@ -22,7 +22,7 @@ def morse_to_txt(morse):
         teste1 = dictionary.translate_morse(morse_letter[k])
         trans_message = trans_message + teste1
 
-    print("Translated to: ", trans_message, "\n")
+    print(" → translation: ", trans_message)
 
 
 def txt_to_morse(txt):
@@ -32,4 +32,4 @@ def txt_to_morse(txt):
         letter = dictionary.translate_letter(txt[i])
         trans_message = trans_message + letter + ' '
 
-    print(trans_message)
+    print(" → translation: ", trans_message)
